@@ -1,5 +1,5 @@
 ---
 title:
 author:
-data:
+date:
 ---
