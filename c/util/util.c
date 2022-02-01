@@ -67,7 +67,7 @@ char *util_strdup(char *src) {
 }
 
 /*array de-allocation utility function*/
-void util_array_dispose(void **ptr, unsigned int n, void (*quit)(void *)) {
+void arr_disp(void **ptr, unsigned int n, void (*quit)(void *)) {
   int i;
 
   if (quit != NULL) {
@@ -79,7 +79,7 @@ void util_array_dispose(void **ptr, unsigned int n, void (*quit)(void *)) {
 }
 
 /*matrix allocation utility function*/
-void **util_matrix_alloc(unsigned int n, unsigned int m, unsigned int size) {
+void **mat_alloc(unsigned int n, unsigned int m, unsigned int size) {
   void **ptr;
   int i;
 
@@ -91,7 +91,7 @@ void **util_matrix_alloc(unsigned int n, unsigned int m, unsigned int size) {
 }
 
 /*matrix de-allocation utility function*/
-void util_matrix_dispose(void ***ptr, unsigned int n, unsigned int m,
+void mat_disp(void ***ptr, unsigned int n, unsigned int m,
                          void (*quit)(void *)) {
   int i, j;
 
