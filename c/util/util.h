@@ -11,7 +11,7 @@ void check_args(int argc, char **argv);
 FILE *open_file(char *filename, char *mode);
 void *malloc_ck(int size);
 int file_num_of_line_completed(char *filename, char *mode);
-void scanfile(int argc, char **argv, int n);
+void scanfile(int argc, char **argv);
 
 extern void *util_malloc(unsigned int size);
 extern void *util_calloc(unsigned int num, unsigned int size);

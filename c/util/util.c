@@ -35,9 +35,10 @@ int file_num_of_line_completed(char *filename, char *mode) {
 }
 
 /*It has to be modified in order to be used properly*/
-void scanfile(int argc, char **argv, int n) {
+void scanfile(int argc, char **argv) {
   int a = 0;
   FILE *f = open_file(argv[1], "r");
+  int n = file_num_of_line_completed(argv[1], "r");
   for (int i = 0; i < n; i++) {
     fscanf(f, "%d ", &a);
     printf("%d ", a);
