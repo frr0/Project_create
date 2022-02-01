@@ -93,7 +93,7 @@ void **mat_alloc(unsigned int n, unsigned int m, unsigned int size) {
 
 /*matrix de-allocation utility function*/
 void mat_disp(void ***ptr, unsigned int n, unsigned int m,
-                         void (*quit)(void *)) {
+              void (*quit)(void *)) {
   int i, j;
 
   for (i = 0; i < n; i++) {
