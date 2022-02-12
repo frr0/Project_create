@@ -6,7 +6,7 @@ f_md=$name.md
 f_pdf=$name.pdf
 
 pandoc -s -i \
-    --pdf-engine=xelatex \ 
+    --pdf-engine=xelatex \
     -V geometry:"top=2cm, bottom=2cm, left=2cm, right=2cm" \
     -V colorlinks \
     --highlight-style zenburn \
