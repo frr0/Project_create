@@ -1,2 +1,2 @@
 target: 
-	./note.sh
+	./note.sh note
