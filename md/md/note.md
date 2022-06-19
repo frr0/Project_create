@@ -1,7 +1,21 @@
 ---
 title: Title
 author: Author
-date: Today
+date: \today
+institute: ""
+topic: ""
+section-titles: true
+geometry: "letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm"
+fontsize: 11pt
+urlcolor: NavyBlue
+highlight-style: zenburn
+linkstyle: bold
+colorlinks: true
+toc: true
+colortheme: ""
+fonttheme: ""
+mainfont: ""
+aspectratio: 
 
 header-includes:
 	\usepackage{mathtools}
