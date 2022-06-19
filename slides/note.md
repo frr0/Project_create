@@ -1,6 +1,6 @@
 ---
 title: Slide sample
-author: Francesco Ranellucci
+author: author
 date: \today
 institute: "My home office"
 topic: ""
