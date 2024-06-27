@@ -22,4 +22,5 @@ F_PDF=$(F).pdf
 	# }
 
 target: 
-	pandoc -s -i -N --citeproc -o $(F_PDF) $(F_MD) +RTS -Ksize -RTS
+	pandoc -s -i -N -o $(F_PDF) $(F_MD)
+	# pandoc -s -i -N --citeproc -o $(F_PDF) $(F_MD) +RTS -Ksize -RTS

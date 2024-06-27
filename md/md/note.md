@@ -12,6 +12,7 @@ toc: true
 header-includes:
 	\usepackage{mathtools}
 	\usepackage{multicol}
+	\usepackage{soul}
 ---
 \newpage
 
